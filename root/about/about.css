@@ -1,0 +1,48 @@
+@import url('https://fonts.cdnfonts.com/css/brandon-grotesque-regular');
+.title {
+    display: block;
+    color: #28493c;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+hr {
+    color: #8a9e6f;
+    background-color: #8a9e6f;
+    width: 130px;
+    height: 2px;
+}
+/*About Page Design*/
+#about-text {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#about-text h2 {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #28493c;
+    font-size: 18px;
+    text-align: justify;
+}
+#about-text p {
+    font-family: 'Brandon Grotesque Regular', sans-serif;
+    color: #28493c;
+    font-size: 18px;
+    text-align: justify;
+}
+#links {
+    font-family: sans-serif !important;
+    font-size: 14px !important;
+}
+#link-history, #link-staff {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #8a9e6f;
+}
+#link-history:hover, #link-staff:hover {
+    color: #28493c;
+    transition: 1s;
+}

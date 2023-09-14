@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" type="text/css" href="../style.css"/>
+    <link rel="stylesheet" type="text/css" href="contact.css"/>
+    <link href="https://fonts.cdnfonts.com/css/brandon-grotesque-regular" rel="stylesheet">
+</head>
+<body>
+    <div id="nav-bar">
+        <header>
+            <a id="logo-link" href="../home.html"><img src="../images/logo.png" alt="The Healing Paw logo" id="logo-1"/></a>
+            <p id="support-line">24/7 Support Line: <a id="phone-number" href="tel:202-555-0158">202-555-0158</a></p>
+        </header>
+        <nav>
+            <div class="dropdown">
+                <button class="about"><a href="../about/about.html">ABOUT US</a></button>
+                <div class="dropdown-content">
+                  <a href="../about/history.html">Our History & Values</a>
+                  <a href="../about/staff.html">Our Staff</a>
+                </div>
+            </div>
+            <a href="../services/services.html">SERVICES</a>
+            <a href="../appointment/appointment.html">BOOK AN APPOINTMENT</a>
+            <a href="../resources/resources.html">RESOURCES</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+    </div>
+    <main>
+        <h1 class="title">CONTACT US</h1>
+        <hr>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12582.075236815072!2d23.7270296!3d37.9650201!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bc63da938761%3A0x2bc0d5636ad0d2f5!2sIST%20College%20%7C%20Independent%20Studies%20of%20Science%20%26%20Technology!5e0!3m2!1sel!2sgr!4v1679388239604!5m2!1sel!2sgr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div id="clinic-info">
+            <h2>THE HEALING PAW VETERINARY CLINIC</h2>
+            <p>
+                <img src="../images/location.png" alt="Location Icon"/>&nbsp;<a href="https://www.google.com/maps/place/IST+College+%7C+Independent+Studies+of+Science+%26+Technology/@37.9650201,23.7270296,15z/data=!4m6!3m5!1s0x14a1bc63da938761:0x2bc0d5636ad0d2f5!8m2!3d37.9650201!4d23.7270296!16s%2Fg%2F1x6n4gty">1234 Willow Street, Evergreen, CO 80439</a> |
+                <img src="../images/phone.png" alt="Phone Icon"/>&nbsp;24/7 Support Line: <a href="tel:202-555-0158">202-555-0158</a>
+            </p>
+            <p>We would love to hear from you! You can click <a href="../appointment/appointment.html">here</a> to book an appointment, or 
+                you can complete this form for general questions or comments.</p>
+        </div>
+        <form id="general-form" action="">
+            <fieldset>
+                <p>Your Name: *</p>
+                <div id="name">
+                    <div id="first-name">
+                        <input type="text" required/>
+                        <label>First Name</label>
+                    </div>
+                    <div id="last-name">
+                        <input type="text" required/>
+                        <label>Last Name</label>
+                    </div>
+                </div>
+                <p id="email">Your Email: *</p>
+                <input type="email" required/><br>
+                <p>Your Message:</p>
+                <textarea rows="5"></textarea><br>
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <img src="../images/logo.png" alt="The Healing Paw Logo" id="logo-2"/>
+        <div>
+            <h2>Hospital Location</h2>
+            <p id="par-1">1234 Willow Street<br>Evergreen, CO 80439<br>24/7 Support Line<br><a href="tel:202-555-0158">202-555-0158</a></p>
+        </div>
+        <div>
+            <h2><a href="../about/about.html">About Us</a></h2>
+            <p id="par-2"><a href="../about/history.html">Our History & Values</a><br><a href="../about/staff.html">Our Staff</a></p>
+        </div>
+        <div>
+            <h2><a href="../services/services.html">Services</a></h2>
+            <p id="par-3">Preventative Care/Wellness<br>Emergency Medicine<br>Dentistry<br>Microchipping<br>Surgery</p>
+        </div>
+        <div>
+            <div><h2>&nbsp;</h2></div>
+            <p id="par-4">Health Certificates<br>Vaccinations<br>Parasite Prevention<br>Allergies<br>Ear Treatment</p>
+        </div>
+        <div>
+            <h2 id="link-4"><a href="../appointment/appointment.html">Appointment</a></h2>
+            <h2 id="link-5"><a href="../resources/resources.html">Resources</a></h2>
+            <h2 id="link-6"><a href="contact.html">Contact</a></h2>
+        </div>
+    </footer>
+</body>
+</html>

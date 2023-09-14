@@ -1,0 +1,99 @@
+/*Home Page Design*/
+@import url('https://fonts.cdnfonts.com/css/brandon-grotesque-regular');
+body {
+    background-color: #eff0f2;
+}
+/*Welcome Message*/
+#welcome {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    background-color: #eff0f2;
+    padding-top: 40px;
+    margin-top: -70px !important;
+}
+#image {
+    width: 50%;
+    background-color: #8a9e6f;
+    height: 100%;
+}
+#image img {
+    display: block;
+    margin: auto;
+}
+#image img:hover {
+    scale: 110%;
+    rotate: -10deg;
+    transition: 1s;
+}
+#message {
+    width: 50%;
+    text-align: center;
+    font-family: sans-serif;;
+    font-size: 20px;
+    color: #28493c;
+}
+/*Services Text Part & About Us Text Part in Home Page*/
+#welcome-services {
+    background-color: white;
+    margin-bottom: 0 !important;
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+#welcome-about {
+    width: 100%;
+    background-color: #eff0f2;
+    margin-bottom: 0 !important;
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+#welcome-services h2, #welcome-about h2 {
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2em;
+    color: #28493c;
+    margin-top: 35px;
+}
+#welcome-services p, #welcome-about p {
+    display: block;
+    margin: auto;
+    width: 60%;
+    font-family: 'Brandon Grotesque Regular', sans-serif;
+    color: #28493c;
+    font-size: 18px;
+    text-align: center;
+}
+/*Buttons and Hover Effect*/
+#book-app {
+    margin-top: 20px;
+    width: 25%;
+    height: 45px;
+    background-color: #28493c;
+    color: white;
+    border: 0;
+    border-radius: 7px;
+    font-family: sans-serif;
+}
+#welcome-services a, #welcome-about a {
+    text-decoration: none;
+}
+#services-button, #about-button {
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    height: 45px;
+    width: 13%;
+    background-color: #28493c;
+    color: white;
+    font-family: sans-serif;
+    border: 0;
+    border-radius: 7px;
+}
+#book-app:hover, #services-button:hover, #about-button:hover {
+    background-color: #8a9e6f;
+    transition: 1s;
+}
+

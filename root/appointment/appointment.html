@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Page</title>
+    <link rel="stylesheet" type="text/css" href="../style.css"/>
+    <link rel="stylesheet" type="text/css" href="appointment.css"/>
+    <link href="https://fonts.cdnfonts.com/css/brandon-grotesque-regular" rel="stylesheet">
+</head>
+<body>
+    <div id="nav-bar">
+        <header>
+            <a id="logo-link" href="../home.html"><img src="../images/logo.png" alt="The Healing Paw logo" id="logo-1"/></a>
+            <p id="support-line">24/7 Support Line: <a id="phone-number" href="tel:202-555-0158">202-555-0158</a></p>
+        </header>
+        <nav>
+            <div class="dropdown">
+                <button class="about"><a href="../about/about.html">ABOUT US</a></button>
+                <div class="dropdown-content">
+                  <a href="../about/history.html">Our History & Values</a>
+                  <a href="../about/staff.html">Our Staff</a>
+                </div>
+            </div>
+            <a href="../services/services.html">SERVICES</a>
+            <a href="appointment.html">BOOK AN APPOINTMENT</a>
+            <a href="../resources/resources.html">RESOURCES</a>
+            <a href="../contact/contact.html">CONTACT</a>
+        </nav>
+    </div>
+    <main>
+        <h1 class="title">BOOK AN APPOINTMENT</h1>
+        <hr>
+        <form action="">
+            <fieldset id="form">
+                <h2>YOUR INFORMATION</h2>
+                <p class="center">(*) Indicates Required Field</p>
+                <p>Please Select: *</p>
+                <label for="client-1"><input id="client-1" type="radio" name="client" value="yes" required/>New Client</label>
+                <label for="client-2"><input id="client-2" type="radio" name="client" value="no" required/>Existing</label><br>
+            </fieldset>
+            <fieldset id="personal-information"> 
+                <label for="name"><p>First Name: *</p></label>
+                <input id="name" type="text" placeholder="Your First Name" required/>
+                <label for="last-name"><p>Last Name: *</p></label>
+                <input id="last-name" type="text" placeholder="Your Last Name" required/>
+                <label for="address"><p>Address: *</p></label>
+                <input id="address" type="text" placeholder="Your Address"/>
+                <label for="phone"><p>Phone: *</p></label>
+                <input id="phone" type="tel" placeholder="e.g. 202-555-0158" required/>
+                <label for="mail"><p>Email: *</p></label>
+                <input id="mail" type="email" placeholder="e.g. example@gmail.com" required/>
+            </fieldset>
+            <fieldset id="pet-information">
+                <label for="pet-name"><p>Pet's Name: </p></label>
+                <input id="pet-name" type="text" placeholder="Your Pet's Name"/>
+                <label for="pet-type"><p>Type of Pet: *</p></label>
+                <input id="pet-type" type="text" placeholder="e.g. Dog" required/>
+            </fieldset>
+            <fieldset id="appointment">
+                <label for="service-type"><p>Select Type of Service: *</p></label>
+                <select id="service-type" required>
+                    <option>Preventative Care/Wellness</option>
+                    <option>Emergency Medicine & Urgent Care</option>
+                    <option>Dentistry</option>
+                    <option>Microchipping</option>
+                    <option>Surgery</option>
+                    <option>Health Certificate</option>
+                    <option>Vaccinations</option>
+                    <option>Parasite Prevention</option>
+                    <option>Allergies</option>
+                    <option>Ear Treatment</option>
+                </select>
+                <label for="date"><p>Select Available Date: *</p></label>
+                <input id="date" type="date" required/>
+            </fieldset><br>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+        <h3>Click <a href="../services/services.html">here</a> to learn more about our Services.</h3>
+    </main>
+    <footer>
+        <img src="../images/logo.png" alt="The Healing Paw Logo" id="logo-2"/>
+        <div>
+            <h2>Hospital Location</h2>
+            <p id="par-1">1234 Willow Street<br>Evergreen, CO 80439<br>24/7 Support Line<br><a href="tel:202-555-0158">202-555-0158</a></p>
+        </div>
+        <div>
+            <h2><a href="../about/about.html">About Us</a></h2>
+            <p id="par-2"><a href="../about/history.html">Our History & Values</a><br><a href="../about/staff.html">Our Staff</a></p>
+        </div>
+        <div>
+            <h2><a href="../services/services.html">Services</a></h2>
+            <p id="par-3">Preventative Care/Wellness<br>Emergency Medicine<br>Dentistry<br>Microchipping<br>Surgery</p>
+        </div>
+        <div>
+            <div><h2>&nbsp;</h2></div>
+            <p id="par-4">Health Certificates<br>Vaccinations<br>Parasite Prevention<br>Allergies<br>Ear Treatment</p>
+        </div>
+        <div>
+            <h2 id="link-4"><a href="appointment.html">Appointment</a></h2>
+            <h2 id="link-5"><a href="../resources/resources.html">Resources</a></h2>
+            <h2 id="link-6"><a href="../contact/contact.html">Contact</a></h2>
+        </div>
+    </footer>
+</body>
+</html>

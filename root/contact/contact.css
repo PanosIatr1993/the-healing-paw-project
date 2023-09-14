@@ -1,0 +1,114 @@
+@import url('https://fonts.cdnfonts.com/css/brandon-grotesque-regular');
+.title {
+    display: block;
+    color: #28493c;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+hr {
+    color: #8a9e6f;
+    background-color: #8a9e6f;
+    width: 130px;
+    height: 2px;
+}
+/*Map Alignment*/
+iframe {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    height: 300px;
+}
+/*Clinic Info*/
+#clinic-info {
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+}
+#clinic-info h2 {
+    font-family: sans-serif;
+    color: #28493c;
+}
+#clinic-info p img {
+    width: 13px;
+}
+#clinic-info p a{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #8a9e6f;
+}
+#clinic-info p a:hover {
+    color: #28493c;
+    transition: 1s;
+}
+#clinic-info p {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #28493c;
+}
+/*General Questions-Discussion Form Design*/
+form {
+    margin-top: 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 80%;
+    color: #28493c;
+}
+fieldset {
+    border: 0;
+    width: 100%;
+    padding-left: 0;
+}
+fieldset p {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+#name, #first-name, #last-name {
+    width: 100%;
+    border: 0;
+    padding-left: 0;
+}
+form #name {
+    display: flex;
+}
+#name #first-name, #name #last-name {
+    display: flex;
+    flex-direction: column;
+    color: #28493c;
+}
+#first-name input, #last-name input {
+    width: 80%;
+    height: 30px;
+    border-color: #28493c;
+    border-radius: 7px;
+}
+#email {
+    margin-top: 35px;
+}
+[type="email"] {
+    width: 40%;
+    height: 30px;
+    border-color: #28493c;
+    border-radius: 7px;
+}
+textarea {
+    width: 100%;
+    border-color: #28493c;
+    border-radius: 7px;
+}
+[type="submit"] {
+    margin-top: 20px;
+    width: 25%;
+    height: 45px;
+    background-color: #28493c;
+    color: white;
+    border: 0;
+    border-radius: 7px;
+    font-family: sans-serif;
+}
+[type="submit"]:hover {
+    background-color: #8a9e6f;
+    transition: 1s;
+}
